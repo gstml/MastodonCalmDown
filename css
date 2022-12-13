@@ -319,6 +319,7 @@ a div img {
 
 div div p {
 	color: #ccc;
+  font-family: "Mulish";
 }
 
 div div span,
@@ -687,6 +688,11 @@ button.icon-button.overlayed,
 div.zoomable-image {
   background: rgba( 9, 9, 9, 0.4);
   backdrop-filter: blur( 17.5px );      -webkit-backdrop-filter: blur( 17.5px );
+}
+ @media only screen and (min-width: 280px){
+div.zoomable-image img {
+  max-width: 95%;
+}
 }
 
 div.zoomable-image img {
@@ -1218,4 +1224,59 @@ i.fa.fa-pencil.fa-fw {
 
 video.media-gallery__item-gifv-thumbnail {
  border-radius: 12px; 
+}
+
+video {
+ border-radius: 20px; 
+}
+.video-player.inline video {
+border-radius: 12px; 
+  background: rgba(0, 0, 0, 0.4);
+}
+
+div.compose-form__warning {
+ background-color: #272727;
+ border-radius: 20px;
+ border: solid 5px #292929;
+  background-clip: content-box;
+ padding: 1.em;
+ margin-bottom: 1.1em;
+}
+
+div.compose-form__warning span {
+ color: #dedede; 
+}
+
+div.compose-form__warning span a span {
+  font-weight: bold;
+  background-color: #FE6300;
+  color: white;
+  padding-left: 0.5em;
+  padding-right: 0.5em;
+  border-radius: 12px;
+}
+
+div.follow_requests-unlocked_explanation {
+ background-color: #222222; 
+ border-radius: 20px;
+ margin-bottom: 1em;
+}
+
+div.follow_requests-unlocked_explanation span {
+  color: #dedede;
+  font-weight: 600;
+}
+
+div.conversation.focusable.muted.conversation--unread {
+  background-color: #343438;
+  border-radius: 20px;
+  margin-bottom: 1em;
+}
+
+span.conversation__unread {
+  background-color: #FF3366;
+}
+
+div.flex-spacer {
+  
 }
