@@ -216,15 +216,21 @@ strong.display-name__html {
 }
 
 ul li a {
-  color: #888;
-  border-radius: 12px;
-background-color: rgba(0, 0, 0, 0.2);
+  background-color: #545454;
+  color: #dedede;
+  font-size: 1.05em;
   padding: 0.2em;
   padding-left: 0.5em;
   padding-right: 0.5em;
   line-height: 1.6em;
+  transition: all 0.25s ease-in-out;
 }
-
+ul li a:hover {
+  background-color: #0077EC;
+  color: white;
+  border-radius: 10px;
+  font-weight: bold;
+}
 i.fa.fa-link {
   color: #FE6300;
 }
@@ -615,7 +621,9 @@ button.load-more.load-gap:hover {
 }
 
 div.link-footer {
-  opacity: 0.75;
+  opacity: 0.85;
+  padding-left: 1.5em;
+  padding-right: 1.5em;
 }
 
 
@@ -1277,6 +1285,76 @@ span.conversation__unread {
   background-color: #FF3366;
 }
 
-div.flex-spacer {
-  
+div.dropdown-menu.bottom {
+ background-color: #545454;
+ border-radius: 12px;
+ padding: 0.5em; 
+}
+
+.hashtag {
+  font-size: .95em;
+  font-weight: 600;
+  background-color: #292929;
+  padding-left: 0.5em;
+  padding-right: 0.5em;
+  padding-bottom: 0.12em;
+  padding-top: 0.12em;
+  margin-left: 0.12em;
+  margin-right: 0.12em;
+  border-radius: 7px;
+  transition-duration: 0.5s;
+  transition-timing-function: ease;
+}
+
+.hashtag:hover {
+  background-color: #181818;
+  color: white;
+}
+
+/* # */
+a.mention.hashtag.status-link {
+  color: #FF3366;
+}
+a.mention.hashtag.status-link:hover {
+  color: #33CAFF;
+}
+/* hashtag */
+a.mention.hashtag.status-link span,
+a.hashtag.status-link {
+  color: #b4b4b4;
+}
+
+a.mention.hashtag.status-link span:hover {
+  color: #ff3366;
+}
+
+.hashtag span {
+  transition-duration: 0.65s;
+  transition-timing-function: ease;
+}
+
+.trends__item__name a {
+    color: #ff3366;
+}
+
+.trends__item__name a span {
+  font-weight: 600;
+  color: #BABABA;
+}
+
+div.getting-started__trends {
+  background-color: #292929;
+margin-left: 1.5em;
+border-radius: 20px;
+margin-bottom: 0.5em;
+}
+
+div.trends__item__name > span {
+  font-size: 0.95em;
+}
+
+.getting-started__trends .trends__item__current span {
+  color: #BABABA;
+  font-size: 0.7em;
+  font-weight: 600;
 }
