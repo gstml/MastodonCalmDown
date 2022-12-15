@@ -1349,6 +1349,10 @@ border-radius: 20px;
 margin-bottom: 0.5em;
 }
 
+div.getting-started__trends svg {
+  filter: hue-rotate(90deg);
+}
+
 div.trends__item__name > span {
   font-size: 0.95em;
 }
@@ -1357,4 +1361,66 @@ div.trends__item__name > span {
   color: #BABABA;
   font-size: 0.7em;
   font-weight: 600;
+}
+
+div.language-dropdown__dropdown__results {
+  background-color: #353535;
+}
+
+div.language-dropdown__dropdown__results__item.active {
+  background-color: #FFAE33;
+  border-radius: 12px;
+  color: #181818;
+}
+
+div.language-dropdown__dropdown__results__item.active span {
+  color: #181818;
+  font-weight: 600;
+}
+
+div.language-dropdown__dropdown__results__item:hover{
+  background-color: #202020;
+  border-radius: 12px;
+}
+
+div.language-dropdown__dropdown__results__item span {
+  color: #ccc;
+}
+
+div.emoji-mart-search {
+  background-color: #353535;
+}
+
+.language-dropdown__dropdown.bottom,
+.language-dropdown__dropdown.top {
+  border-radius: 20px;
+  background-color: #353535;
+  padding-bottom: 1em;
+}
+
+input.spoiler-input__input {
+  background-color: #191919;
+}
+
+.compose-form .spoiler-input__input {
+    color: #FFAE33;
+    border-radius: 12px;
+}
+
+#mastodon > div > div > div.columns-area__panels > div.columns-area__panels__main > div.columns-area.columns-area--mobile > div > div > div.directory__list > div > a > div.account-card__header > img {
+  background-color: #2C2C2C;
+}
+
+div.dropdown-menu.top {
+  border-radius: 20px;
+  background-color: #353535;
+  padding: 1em;
+}
+
+body > div.dropdown-menu.top > div.dropdown-menu__container > ul {
+  background-color: #353535;
+}
+
+.dropdown-menu__item a, .dropdown-menu__item button{
+  background-color: #353535;
 }
